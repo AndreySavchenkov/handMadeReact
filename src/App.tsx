@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import {Input} from "./components/Input/Input";
+import {Input2} from "./components/Input2/Input2";
+import {Counter} from "./components/Counter/Counter";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+function App ()  {
+
+
+
+    return (
+        <div>
+            <Input />
+            <Input2/>
+            <Counter/>
+        </div>
+    );
 }
+
 
 export default App;
