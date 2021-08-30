@@ -1,5 +1,6 @@
 import React from 'react';
 import {Counter} from "./components/Counter/Counter";
+import {CounterLocale} from "./components/CounterLocale/CounterLocale";
 
 
 function App ()  {
@@ -7,10 +8,7 @@ function App ()  {
 
 
     return (
-        <div>
-            <Counter maxValue={5}/>
-            <Counter maxValue={10}/>
-        </div>
+        <CounterLocale/>
     );
 }
 
